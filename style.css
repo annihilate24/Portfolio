@@ -1,0 +1,254 @@
+nav {
+    display: flex;
+    
+    align-items:center;
+    justify-content: space-between;
+    background-color: #F3E9DC;
+    height:60px;
+    padding:0 60px;
+}
+nav h2 {
+    color: #5E3023;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.navbar a {
+    color: #5E3023;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+.navbar{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+
+#home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    background-color: #5E3023;
+    height: 100vh;
+    background-image: url("b1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.home_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    font-size: 22px;
+    color: #F3E9DC;
+    margin: 90px;
+    align-items: flex-start;
+}
+
+.homepic {
+    width: 50%;
+    display: flex;
+    box-shadow: 0px 8px 20px rgba(62, 33, 24, 0.35);
+    justify-content: center;
+}
+
+.homepic img {
+    width: 120%;
+    padding: 10px;
+    height: 90vh;
+    border-radius: 50px;
+
+}
+
+#about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    background-color: #F3E9DC;
+    height: fit-content;
+    background-image: url("b2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about_text {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    color: #5E3023;
+   
+
+}
+
+.about_pic1,.about_pic2{
+    
+    display: flex;
+    flex-direction: row;
+
+}
+
+.about_pic1 img {
+    
+    padding: 15px;
+    margin-top: 30px;
+    height: 50vh;
+    border-radius: 25px;
+
+}
+.about_pic2 img{
+    padding: 15px;
+    margin-bottom: 30px;
+    height: 50vh;
+    border-radius: 25px;
+
+}
+
+#skills {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+    
+    background-color: #E8D2BC;
+    min-height: 40vh;
+    background-image: url("b3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.skills_text {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    font-size: 22px;
+    color: #5E3023;
+
+}
+
+.skills_pic1,.skills_pic2,.skills_pic3,.skills_pic4,.skills_pic5 {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    box-shadow: 0px 8px 20px rgba(62, 33, 24, 0.35);
+    background-color:#3E2118;
+    margin:15px;
+    height:150px;
+    width:150px;
+    border-radius:20px;
+
+}
+.skills_pic1 img,.skills_pic2 img,.skills_pic3 img,.skills_pic4 img,.skills_pic5 img{
+    object-fit:cover;
+    height:90%;
+    width: 90%;
+    border-radius: 15px;
+
+}
+.skills_container{
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#projects {
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-around;
+    background: #895737;
+    height: 100vh;
+    background-image: url("b4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.projects_text {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    font-size: 20px;
+    color: #5E3023;
+    margin: 10px;
+
+}
+.projects_text h1 {
+    font-size: 40px;
+    margin: 0;
+    color:#F3E9DC;
+}
+
+
+.projects_pic1,.projects_pic2,.projects_pic3 {
+
+    
+    background-color:#3E2118;
+    box-shadow: 0px 8px 20px rgba(62, 33, 24, 0.35);
+    height:80%;
+    width:30%;
+    border-radius:25px;
+
+}
+
+.projects_pic1 img,.projects_pic2 img,.projects_pic3 img{
+
+    padding: 10px;
+    
+    height:60%;
+    width: 95%;
+    border-radius: 25px;
+
+}
+
+#projects p{
+    padding:10px;
+    color:#F3E9DC;
+    font-size:20px;
+}
+.pro_title{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:#F3E9DC;
+}
+.project_container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    width: 100%;
+}
+
+#contact {
+    display: flex;
+    flex-direction:row;
+    background: #3E2118;
+    height: 45vh;
+    background-image: url("b5.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#contact p,#contact h1{
+
+    padding-left:20px;
+    color:#F3E9DC;
+}
